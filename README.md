@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003B00,100:00FF41&height=180&section=header&text=SHEILPIAN&fontSize=72&fontColor=00FF41&animation=fadeIn&fontAlignY=38&desc=%3E_%20root%40kali%3A~%24%20Software%20Engineer%20%7C%20System%20Developer%20%7C%20Automation&descAlignY=60&descSize=15&descColor=39FF14" width="100%"/>
 
-<img src="./assets/hero_banner.svg" alt="SHEILPIAN Hacker Banner" width="100%"/>
+<img src="./assets/hero_banner_hq.jpg" alt="SHEILPIAN Hacker Banner" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=2500&pause=600&color=00FF41&center=true&vCenter=true&width=750&lines=%3E+Initializing+SHEILPIAN.exe...;%3E+Loading+modules...+%5BDONE%5D;%3E+Software+Engineer+%2F+System+Developer;%3E+Building+Automation+%26+Smart+Systems;%3E+Access+Granted.+Welcome+to+my+profile._" alt="Typing SVG"/>
 
