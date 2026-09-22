@@ -3,14 +3,14 @@
   <style>
   @keyframes glitch{0%,84%,100%{transform:none;opacity:1}85%{transform:translate(-4px,0) skewX(-4deg)}87%{transform:translate(4px,1px) skewX(3deg);opacity:.85}89%{transform:translate(-2px,0)}91%{transform:translate(2px,-1px)}93%{transform:none}}
   @keyframes glitch2{0%,84%,100%{opacity:0}85%{opacity:.55;transform:translate(8px,0) skewX(-6deg)}87%{opacity:.3;transform:translate(-8px,2px)}89%,100%{opacity:0}}
-  @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
-  @keyframes blink{0%,48%,100%{opacity:1}50%,98%{opacity:0}}
-  @keyframes borderGlow{0%,100%{stroke-opacity:.45}50%{stroke-opacity:1;filter:drop-shadow(0 0 6px #00FF41)}}
+  @keyframes pulse{0%,100%{opacity:1}}
+  @keyframes blink{0%,100%{opacity:1}}
+  @keyframes borderGlow{0%,100%{stroke-opacity:1;filter:drop-shadow(0 0 6px #00FF41)}}
   @keyframes fadeIn{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
   @keyframes scanMove{from{transform:translateY(-4px)}to{transform:translateY(500px)}}
   @keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
-  @keyframes textFlicker{0%,94%,100%{opacity:.85}95%{opacity:.2}97%{opacity:.7}}
-  @keyframes glow3s{0%,100%{opacity:.6;filter:drop-shadow(0 0 3px #00FF41)}50%{opacity:1;filter:drop-shadow(0 0 10px #00FF41) drop-shadow(0 0 20px #39FF14)}}
+  @keyframes textFlicker{0%,100%{opacity:.85}}
+  @keyframes glow3s{0%,100%{opacity:1;filter:drop-shadow(0 0 6px #00FF41)}}
 </style>
   
   <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
@@ -178,45 +178,7 @@
 <rect x="338" y="294" width="220" height="24" rx="4" fill="#0a1a0a" stroke="#002500" stroke-width="1"/>
 <rect x="342" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="360" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="378" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="396" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="414" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="432" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="450" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="468" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="486" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="504" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="522" y="298" width="14" height="7" rx="2" fill="#0d200d"/>
 <rect x="342" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="360" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="378" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="396" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="414" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="432" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="450" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="468" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="486" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="504" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="522" y="307" width="14" height="7" rx="2" fill="#0d200d"/>
-<!-- Typing fingers -->
-<rect x="380" y="296" width="9" height="12" rx="2.5" fill="#0b1a0b"><animate attributeName="y" values="296;292;296" dur="0.38s" begin="0s" repeatCount="indefinite"/></rect>
-<rect x="400" y="296" width="9" height="12" rx="2.5" fill="#0b1a0b"><animate attributeName="y" values="296;292;296" dur="0.42s" begin="0.12s" repeatCount="indefinite"/></rect>
-<rect x="420" y="296" width="9" height="12" rx="2.5" fill="#0b1a0b"><animate attributeName="y" values="296;292;296" dur="0.36s" begin="0.05s" repeatCount="indefinite"/></rect>
-<rect x="440" y="296" width="9" height="12" rx="2.5" fill="#0b1a0b"><animate attributeName="y" values="296;292;296" dur="0.44s" begin="0.19s" repeatCount="indefinite"/></rect>
-
-
-<!-- ── HACKER SILHOUETTE ── -->
-<!-- Body behind desk -->
-<path d="M207,318 Q252,308 297,318 L302,400 L202,400 Z" fill="#070e07"/>
-<!-- Shoulders -->
-<ellipse cx="252" cy="274" rx="52" ry="20" fill="#080f08"/>
-<!-- Right arm toward keyboard -->
-<path d="M290,280 Q332,302 372,306" stroke="#090e09" stroke-width="22" fill="none" stroke-linecap="round"/>
-<!-- Left arm toward keyboard -->
-<path d="M214,280 Q232,307 262,306" stroke="#090e09" stroke-width="22" fill="none" stroke-linecap="round"/>
-<!-- Hoodie/body -->
-<ellipse cx="252" cy="260" rx="46" ry="18" fill="#080f08"/>
-<!-- Hood -->
-<path d="M210,232 Q206,170 252,168 Q292,176 294,232 L286,262 Q252,258 218,262 Z" fill="#050b05"/>
-<!-- Head -->
-<circle cx="252" cy="222" r="32" fill="#070d07"/>
-<!-- Anonymous Mask (Minimalist Pro Vector) -->
-<g>
-  <!-- Mask base (replaces face profile) -->
-  <path d="M 250,200 C 270,195 285,205 280,225 C 275,245 260,250 250,245 C 240,240 235,220 250,200 Z" fill="#e0eee0" stroke="#000" stroke-width="0.5"/>
-  <!-- Glowing Eye -->
-  <path d="M 268,214 Q 272,212 276,214 Q 272,216 268,214 Z" fill="#000"/>
-  <circle cx="272" cy="214" r="1.5" fill="#00FF41" style="animation:pulse 2s infinite;"/>
-  <!-- Eyebrow -->
-  <path d="M 266,210 Q 272,207 278,210" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round"/>
-  <!-- Elegant Mustache & Smile -->
-  <path d="M 265,232 Q 272,228 278,232" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M 267,236 Q 272,240 276,236" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round"/>
-  <!-- Pointed Goatee -->
-  <polygon points="270,242 272,248 274,242" fill="#000"/>
-  <!-- Monitor Edge Glow on Mask -->
-  <path d="M 275,202 C 282,215 282,235 272,245" fill="none" stroke="#00FF41" stroke-width="2" opacity="0.6" style="animation:pulse 3s infinite;"/>
-</g>
+<!-- Hacker silhouette removed per user request -->
 
 <!-- ── MAIN MONITOR STAND ── -->
 <rect x="543" y="316" width="28" height="14" rx="2" fill="#111"/>
