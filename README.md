@@ -103,7 +103,7 @@ root@SHEILPIAN:~$ _
   <br>
     </td>
     <td width="42%" align="center" valign="middle">
-      <img src="./assets/profile_hacker_animated.gif" width="100%" alt="Hacker Profile Animated" style="border-radius: 10px;"/>
+      <img src="./assets/hacker_side_animated.gif" width="100%" alt="Hacker Side Panel Animated" style="border-radius: 10px;"/>
     </td>
   </tr>
 </table>
@@ -119,7 +119,7 @@ root@SHEILPIAN:~$ _
 ## `> ls ./tech-stack/` &nbsp; — &nbsp; Deployed Modules
 
 <div align="center">
-  <img src="./assets/hacker_skills.png" alt="Tech Stack Terminal" width="100%" style="border-radius: 10px;"/>
+  <img src="./assets/hacker_skills_animated.gif" alt="Tech Stack Terminal Animated" width="100%" style="border-radius: 10px;"/>
 </div>
 
 <br>
