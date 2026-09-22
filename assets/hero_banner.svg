@@ -200,14 +200,23 @@
 <path d="M210,232 Q206,170 252,168 Q292,176 294,232 L286,262 Q252,258 218,262 Z" fill="#050b05"/>
 <!-- Head -->
 <circle cx="252" cy="222" r="32" fill="#070d07"/>
-<!-- Face profile (lit from right by monitors) -->
-<ellipse cx="262" cy="224" rx="22" ry="26" fill="#0b1a0b"/>
-<!-- Green face glow from monitor light -->
-<ellipse cx="270" cy="222" rx="16" ry="20" fill="url(#faceGlow)" style="animation:pulse 3s ease-in-out infinite;"/>
-<!-- Eye -->
-<ellipse cx="270" cy="217" rx="3.5" ry="2.5" fill="#00FF41" opacity="0.75" style="animation:pulse 2s ease-in-out infinite;"/>
-<!-- Nose hint -->
-<line x1="272" y1="228" x2="274" y2="232" stroke="#005500" stroke-width="1.5" opacity="0.5"/>
+<!-- Anonymous Mask (Minimalist Pro Vector) -->
+<g>
+  <!-- Mask base (replaces face profile) -->
+  <path d="M 250,200 C 270,195 285,205 280,225 C 275,245 260,250 250,245 C 240,240 235,220 250,200 Z" fill="#e0eee0" stroke="#000" stroke-width="0.5"/>
+  <!-- Glowing Eye -->
+  <path d="M 268,214 Q 272,212 276,214 Q 272,216 268,214 Z" fill="#000"/>
+  <circle cx="272" cy="214" r="1.5" fill="#00FF41" style="animation:pulse 2s infinite;"/>
+  <!-- Eyebrow -->
+  <path d="M 266,210 Q 272,207 278,210" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Elegant Mustache & Smile -->
+  <path d="M 265,232 Q 272,228 278,232" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 267,236 Q 272,240 276,236" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round"/>
+  <!-- Pointed Goatee -->
+  <polygon points="270,242 272,248 274,242" fill="#000"/>
+  <!-- Monitor Edge Glow on Mask -->
+  <path d="M 275,202 C 282,215 282,235 272,245" fill="none" stroke="#00FF41" stroke-width="2" opacity="0.6" style="animation:pulse 3s infinite;"/>
+</g>
 
 <!-- ── MAIN MONITOR STAND ── -->
 <rect x="543" y="316" width="28" height="14" rx="2" fill="#111"/>
