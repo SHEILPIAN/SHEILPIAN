@@ -110,39 +110,7 @@ root@kali:~/SHEILPIAN$ _
 
 </div>
 
----
 
-## `> ./analytics.sh --github` — System Metrics
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=SHEILPIAN&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=6" width="100%"/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=SHEILPIAN&show_icons=true&theme=chartreuse-dark&hide_border=true&title_color=00FF41&icon_color=39FF14&text_color=00CC33&bg_color=0d1117&border_radius=6" height="175"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SHEILPIAN&layout=compact&theme=chartreuse-dark&hide_border=true&title_color=00FF41&text_color=00CC33&bg_color=0d1117&border_radius=6&langs_count=8" height="175"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SHEILPIAN&theme=dark&hide_border=true&stroke=00FF41&ring=39FF14&fire=00FF41&currStreakNum=00FF41&sideNums=39FF14&currStreakLabel=00CC33&sideLabels=009900&dates=007700&background=0d1117&border_radius=6" height="175"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SHEILPIAN&theme=high-contrast&bg_color=0d1117&color=00FF41&line=39FF14&point=00FF41&area=true&hide_border=true&border_radius=6" width="100%"/>
-</div>
-
----
-
-## `> ps aux --projects` — Active Processes
-
-<div align="center">
-
-| `PID` | `PROCESS_NAME` | `DESCRIPTION` | `STACK` | `STATUS` |
-|:---:|:---|:---|:---:|:---:|
-| 001 | **DKM_Management.exe** | Sistem manajemen terpadu masjid — keuangan, kegiatan & anggota | PHP, MySQL, JS | `[RUNNING]` |
-| 002 | **Checksheet_App.exe** | Digital checksheet monitoring proses produksi harian | React, Node.js | `[RUNNING]` |
-| 003 | **Finance_Integration.sh** | Sistem integrasi metode pembayaran keuangan internal | PHP, MySQL | `[RUNNING]` |
-| 004 | **Inventory_Sparepart.py** | Manajemen & tracking stok sparepart mesin produksi | PHP, MySQL, AJAX | `[RUNNING]` |
-
-</div>
-
-
-
----
 
 ## `> netstat --open-connections`
 
