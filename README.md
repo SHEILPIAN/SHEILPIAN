@@ -2,12 +2,29 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003B00,100:00FF41&height=180&section=header&text=SHEILPIAN&fontSize=72&fontColor=00FF41&animation=fadeIn&fontAlignY=38&desc=%3E_%20root%40kali%3A~%24%20Software%20Engineer%20%7C%20System%20Developer%20%7C%20Automation&descAlignY=60&descSize=15&descColor=39FF14" width="100%"/>
 
+<img src="./assets/hero_banner.svg" alt="SHEILPIAN Hacker Banner" width="100%"/>
+
 <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=2500&pause=600&color=00FF41&center=true&vCenter=true&width=750&lines=%3E+Initializing+SHEILPIAN.exe...;%3E+Loading+modules...+%5BDONE%5D;%3E+Software+Engineer+%2F+System+Developer;%3E+Building+Automation+%26+Smart+Systems;%3E+Access+Granted.+Welcome+to+my+profile._" alt="Typing SVG"/>
+
+<br>
+
+```text
+╔═══════════════════════════════════════════════════════════╗
+║  > "The code doesn't lie. Debug it until it confesses."   ║
+║                                              — SHEILPIAN  ║
+╚═══════════════════════════════════════════════════════════╝
+```
 
 ![System Access](https://komarev.com/ghpvc/?username=SHEILPIAN&style=for-the-badge&color=00FF41&label=SYSTEM+ACCESS)
 ![Followers](https://img.shields.io/github/followers/SHEILPIAN?style=for-the-badge&color=39FF14&logo=github&logoColor=black&label=FOLLOWERS)
 ![Stars](https://img.shields.io/github/stars/SHEILPIAN?style=for-the-badge&color=00FF41&logo=github&logoColor=black&label=STARS)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-2024.1-cc0000?style=for-the-badge&logo=kalilinux&logoColor=white)
+
+![Mode](https://img.shields.io/badge/MODE-HACKER-00FF41?style=for-the-badge&logo=terminal&logoColor=black)
+![OS](https://img.shields.io/badge/OS-Kali_Linux-cc0000?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-ALWAYS_ONLINE-39FF14?style=for-the-badge)
+![Uptime](https://img.shields.io/badge/UPTIME-24%2F7-00CC33?style=for-the-badge)
+
+<br>
 
 <a href="https://github.com/SHEILPIAN"><img src="https://img.shields.io/badge/[GITHUB]-00FF41?style=for-the-badge&logo=github&logoColor=black"/></a>
 <a href="mailto:selpian@vuteq.co.id"><img src="https://img.shields.io/badge/[EMAIL]-39FF14?style=for-the-badge&logo=gmail&logoColor=black"/></a>
@@ -123,26 +140,7 @@ root@kali:~/SHEILPIAN$ _
 
 </div>
 
----
 
-## `> id --operator` — Operator Profile
-
-<div align="center">
-<img src="./assets/hero_banner.svg" alt="SHEILPIAN Hacker Banner" width="100%"/>
-
-```
-╔═══════════════════════════════════════════════════════════╗
-║  > "The code doesn't lie. Debug it until it confesses."   ║
-║                                              — SHEILPIAN  ║
-╚═══════════════════════════════════════════════════════════╝
-```
-
-![Mode](https://img.shields.io/badge/MODE-HACKER-00FF41?style=flat-square&logo=terminal&logoColor=black)
-![OS](https://img.shields.io/badge/OS-Kali_Linux-cc0000?style=flat-square&logo=kalilinux&logoColor=white)
-![Status](https://img.shields.io/badge/STATUS-ALWAYS_ONLINE-39FF14?style=flat-square)
-![Uptime](https://img.shields.io/badge/UPTIME-24%2F7-00CC33?style=flat-square)
-
-</div>
 
 ---
 
