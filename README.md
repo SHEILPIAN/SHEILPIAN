@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003B00,100:00FF41&height=180&section=header&text=SHEILPIAN&fontSize=72&fontColor=00FF41&animation=fadeIn&fontAlignY=38&desc=%3E_%20root%40kali%3A~%24%20Software%20Engineer%20%7C%20System%20Developer%20%7C%20Automation&descAlignY=60&descSize=15&descColor=39FF14" width="100%"/>
 
 <img src="./assets/hero_banner.svg" alt="SHEILPIAN Hacker Banner" width="100%"/>
 
