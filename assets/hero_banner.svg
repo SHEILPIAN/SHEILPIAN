@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+<defs>
+  <style>
+  @keyframes glitch{0%,84%,100%{transform:none;opacity:1}85%{transform:translate(-4px,0) skewX(-4deg)}87%{transform:translate(4px,1px) skewX(3deg);opacity:.85}89%{transform:translate(-2px,0)}91%{transform:translate(2px,-1px)}93%{transform:none}}
+  @keyframes glitch2{0%,84%,100%{opacity:0}85%{opacity:.55;transform:translate(8px,0) skewX(-6deg)}87%{opacity:.3;transform:translate(-8px,2px)}89%,100%{opacity:0}}
+  @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+  @keyframes blink{0%,48%,100%{opacity:1}50%,98%{opacity:0}}
+  @keyframes borderGlow{0%,100%{stroke-opacity:.45}50%{stroke-opacity:1;filter:drop-shadow(0 0 6px #00FF41)}}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes scanMove{from{transform:translateY(-4px)}to{transform:translateY(500px)}}
+  @keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+  @keyframes textFlicker{0%,94%,100%{opacity:.85}95%{opacity:.2}97%{opacity:.7}}
+  @keyframes glow3s{0%,100%{opacity:.6;filter:drop-shadow(0 0 3px #00FF41)}50%{opacity:1;filter:drop-shadow(0 0 10px #00FF41) drop-shadow(0 0 20px #39FF14)}}
+</style>
+  
+  <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="sglow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="mglow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="screenFx" x="0" y="0" width="100%" height="100%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <clipPath id="sc"><rect x="372" y="106" width="370" height="200"/></clipPath>
+  <clipPath id="smc"><rect x="798" y="137" width="199" height="126"/></clipPath>
+  <radialGradient id="monGlow" cx="557" cy="196" r="380" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#00FF41" stop-opacity="0.13"/>
+    <stop offset="100%" stop-color="#00FF41" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="faceGlow" cx="270" cy="222" r="45" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#00FF41" stop-opacity="0.28"/>
+    <stop offset="100%" stop-color="#00FF41" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- ── BACKGROUND ── -->
+<rect width="1200" height="400" fill="#0d1117"/>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.25"><tspan x="11" dy="0" opacity=".9">\</tspan><tspan x="11" dy="14">*</tspan><tspan x="11" dy="14">[</tspan><tspan x="11" dy="14">B</tspan><tspan x="11" dy="14">C</tspan><tspan x="11" dy="14">#</tspan><tspan x="11" dy="14">^</tspan><tspan x="11" dy="14">#</tspan><tspan x="11" dy="14">$</tspan><tspan x="11" dy="14">E</tspan><tspan x="11" dy="14">#</tspan><tspan x="11" dy="14">*</tspan><tspan x="11" dy="14">*</tspan><tspan x="11" dy="14">#</tspan><tspan x="11" dy="14">|</tspan><animateTransform attributeName="transform" type="translate" from="0,-210" to="0,430" dur="3.1s" begin="-0.0s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.25"><tspan x="30" dy="0" opacity=".9">F</tspan><tspan x="30" dy="14">0</tspan><tspan x="30" dy="14">!</tspan><tspan x="30" dy="14">{</tspan><tspan x="30" dy="14">#</tspan><tspan x="30" dy="14">|</tspan><tspan x="30" dy="14">*</tspan><tspan x="30" dy="14">/</tspan><tspan x="30" dy="14">B</tspan><tspan x="30" dy="14">#</tspan><animateTransform attributeName="transform" type="translate" from="0,-140" to="0,430" dur="5.3s" begin="-1.7s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.18"><tspan x="63" dy="0" opacity=".9">$</tspan><tspan x="63" dy="14">C</tspan><tspan x="63" dy="14">E</tspan><tspan x="63" dy="14">$</tspan><tspan x="63" dy="14">]</tspan><tspan x="63" dy="14">/</tspan><tspan x="63" dy="14">\</tspan><tspan x="63" dy="14">C</tspan><tspan x="63" dy="14">!</tspan><tspan x="63" dy="14">^</tspan><tspan x="63" dy="14">/</tspan><tspan x="63" dy="14">#</tspan><tspan x="63" dy="14">#</tspan><tspan x="63" dy="14">[</tspan><tspan x="63" dy="14">D</tspan><tspan x="63" dy="14">C</tspan><tspan x="63" dy="14">#</tspan><animateTransform attributeName="transform" type="translate" from="0,-238" to="0,430" dur="5.5s" begin="-1.8s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.34"><tspan x="85" dy="0" opacity=".9">0</tspan><tspan x="85" dy="14">C</tspan><tspan x="85" dy="14">[</tspan><tspan x="85" dy="14">F</tspan><tspan x="85" dy="14">$</tspan><tspan x="85" dy="14">F</tspan><tspan x="85" dy="14">A</tspan><tspan x="85" dy="14">E</tspan><tspan x="85" dy="14">@</tspan><tspan x="85" dy="14">F</tspan><tspan x="85" dy="14">[</tspan><tspan x="85" dy="14">/</tspan><animateTransform attributeName="transform" type="translate" from="0,-168" to="0,430" dur="3.3s" begin="-2.2s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.47"><tspan x="104" dy="0" opacity=".9">E</tspan><tspan x="104" dy="14">A</tspan><tspan x="104" dy="14">@</tspan><tspan x="104" dy="14">@</tspan><tspan x="104" dy="14">!</tspan><tspan x="104" dy="14">C</tspan><tspan x="104" dy="14">|</tspan><tspan x="104" dy="14">!</tspan><tspan x="104" dy="14">{</tspan><tspan x="104" dy="14">B</tspan><tspan x="104" dy="14">]</tspan><tspan x="104" dy="14">E</tspan><tspan x="104" dy="14">E</tspan><tspan x="104" dy="14">^</tspan><tspan x="104" dy="14">D</tspan><tspan x="104" dy="14">{</tspan><animateTransform attributeName="transform" type="translate" from="0,-224" to="0,430" dur="5.3s" begin="-3.5s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.42"><tspan x="127" dy="0" opacity=".9">|</tspan><tspan x="127" dy="14">}</tspan><tspan x="127" dy="14">^</tspan><tspan x="127" dy="14">\</tspan><tspan x="127" dy="14">A</tspan><tspan x="127" dy="14">B</tspan><tspan x="127" dy="14">F</tspan><tspan x="127" dy="14">1</tspan><tspan x="127" dy="14">{</tspan><tspan x="127" dy="14">C</tspan><animateTransform attributeName="transform" type="translate" from="0,-140" to="0,430" dur="5.6s" begin="-4.2s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.5"><tspan x="159" dy="0" opacity=".9">{</tspan><tspan x="159" dy="14">D</tspan><tspan x="159" dy="14">F</tspan><tspan x="159" dy="14">]</tspan><tspan x="159" dy="14">|</tspan><tspan x="159" dy="14">D</tspan><tspan x="159" dy="14">D</tspan><tspan x="159" dy="14">A</tspan><tspan x="159" dy="14">C</tspan><tspan x="159" dy="14">/</tspan><tspan x="159" dy="14">B</tspan><animateTransform attributeName="transform" type="translate" from="0,-154" to="0,430" dur="5.2s" begin="-1.8s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.35"><tspan x="178" dy="0" opacity=".9">\</tspan><tspan x="178" dy="14">0</tspan><tspan x="178" dy="14">/</tspan><tspan x="178" dy="14">B</tspan><tspan x="178" dy="14">}</tspan><tspan x="178" dy="14">D</tspan><tspan x="178" dy="14">}</tspan><tspan x="178" dy="14">#</tspan><tspan x="178" dy="14">0</tspan><tspan x="178" dy="14">B</tspan><tspan x="178" dy="14">!</tspan><tspan x="178" dy="14">0</tspan><tspan x="178" dy="14">D</tspan><tspan x="178" dy="14">1</tspan><tspan x="178" dy="14">B</tspan><tspan x="178" dy="14">\</tspan><tspan x="178" dy="14">/</tspan><tspan x="178" dy="14">/</tspan><tspan x="178" dy="14">E</tspan><animateTransform attributeName="transform" type="translate" from="0,-266" to="0,430" dur="4.4s" begin="-1.4s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.45"><tspan x="208" dy="0" opacity=".9">#</tspan><tspan x="208" dy="14">!</tspan><tspan x="208" dy="14">[</tspan><tspan x="208" dy="14">\</tspan><tspan x="208" dy="14">[</tspan><tspan x="208" dy="14">E</tspan><tspan x="208" dy="14">^</tspan><tspan x="208" dy="14">|</tspan><tspan x="208" dy="14">[</tspan><tspan x="208" dy="14">*</tspan><tspan x="208" dy="14">/</tspan><tspan x="208" dy="14">C</tspan><tspan x="208" dy="14">E</tspan><tspan x="208" dy="14">D</tspan><tspan x="208" dy="14">@</tspan><tspan x="208" dy="14">^</tspan><tspan x="208" dy="14">E</tspan><animateTransform attributeName="transform" type="translate" from="0,-238" to="0,430" dur="5.0s" begin="-3.3s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.29"><tspan x="231" dy="0" opacity=".9">#</tspan><tspan x="231" dy="14">0</tspan><tspan x="231" dy="14">F</tspan><tspan x="231" dy="14">{</tspan><tspan x="231" dy="14">*</tspan><tspan x="231" dy="14">1</tspan><tspan x="231" dy="14">E</tspan><tspan x="231" dy="14">/</tspan><tspan x="231" dy="14">[</tspan><tspan x="231" dy="14">}</tspan><tspan x="231" dy="14">]</tspan><animateTransform attributeName="transform" type="translate" from="0,-154" to="0,430" dur="4.3s" begin="-5.2s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.56"><tspan x="256" dy="0" opacity=".9">#</tspan><tspan x="256" dy="14">}</tspan><tspan x="256" dy="14">!</tspan><tspan x="256" dy="14">D</tspan><tspan x="256" dy="14">F</tspan><tspan x="256" dy="14">/</tspan><tspan x="256" dy="14">B</tspan><tspan x="256" dy="14">*</tspan><tspan x="256" dy="14">A</tspan><tspan x="256" dy="14">C</tspan><tspan x="256" dy="14">D</tspan><tspan x="256" dy="14">0</tspan><tspan x="256" dy="14">#</tspan><tspan x="256" dy="14">@</tspan><tspan x="256" dy="14">!</tspan><tspan x="256" dy="14">]</tspan><tspan x="256" dy="14">D</tspan><tspan x="256" dy="14">$</tspan><animateTransform attributeName="transform" type="translate" from="0,-252" to="0,430" dur="5.2s" begin="0.3s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.39"><tspan x="272" dy="0" opacity=".9">#</tspan><tspan x="272" dy="14">D</tspan><tspan x="272" dy="14">1</tspan><tspan x="272" dy="14">B</tspan><tspan x="272" dy="14">B</tspan><tspan x="272" dy="14">$</tspan><tspan x="272" dy="14">*</tspan><tspan x="272" dy="14">\</tspan><tspan x="272" dy="14">D</tspan><tspan x="272" dy="14">{</tspan><tspan x="272" dy="14">B</tspan><tspan x="272" dy="14">1</tspan><tspan x="272" dy="14">*</tspan><tspan x="272" dy="14">0</tspan><tspan x="272" dy="14">!</tspan><tspan x="272" dy="14">F</tspan><tspan x="272" dy="14">B</tspan><tspan x="272" dy="14">#</tspan><tspan x="272" dy="14">}</tspan><animateTransform attributeName="transform" type="translate" from="0,-266" to="0,430" dur="5.4s" begin="-4.6s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.32"><tspan x="300" dy="0" opacity=".9">*</tspan><tspan x="300" dy="14">B</tspan><tspan x="300" dy="14">/</tspan><tspan x="300" dy="14">!</tspan><tspan x="300" dy="14">*</tspan><tspan x="300" dy="14">}</tspan><tspan x="300" dy="14">D</tspan><tspan x="300" dy="14">F</tspan><tspan x="300" dy="14">0</tspan><tspan x="300" dy="14">{</tspan><tspan x="300" dy="14">B</tspan><animateTransform attributeName="transform" type="translate" from="0,-154" to="0,430" dur="3.1s" begin="-2.1s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.25"><tspan x="319" dy="0" opacity=".9">D</tspan><tspan x="319" dy="14">\</tspan><tspan x="319" dy="14">F</tspan><tspan x="319" dy="14">}</tspan><tspan x="319" dy="14">@</tspan><tspan x="319" dy="14">!</tspan><tspan x="319" dy="14">|</tspan><tspan x="319" dy="14">$</tspan><tspan x="319" dy="14">[</tspan><tspan x="319" dy="14">\</tspan><tspan x="319" dy="14">B</tspan><tspan x="319" dy="14">^</tspan><tspan x="319" dy="14">^</tspan><tspan x="319" dy="14">@</tspan><tspan x="319" dy="14">#</tspan><tspan x="319" dy="14">{</tspan><tspan x="319" dy="14">{</tspan><tspan x="319" dy="14">F</tspan><tspan x="319" dy="14">F</tspan><animateTransform attributeName="transform" type="translate" from="0,-266" to="0,430" dur="5.2s" begin="-0.4s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.5"><tspan x="350" dy="0" opacity=".9">|</tspan><tspan x="350" dy="14">@</tspan><tspan x="350" dy="14">@</tspan><tspan x="350" dy="14">E</tspan><tspan x="350" dy="14">[</tspan><tspan x="350" dy="14">\</tspan><tspan x="350" dy="14">}</tspan><tspan x="350" dy="14">1</tspan><tspan x="350" dy="14">!</tspan><tspan x="350" dy="14">^</tspan><tspan x="350" dy="14">\</tspan><tspan x="350" dy="14">E</tspan><tspan x="350" dy="14">!</tspan><tspan x="350" dy="14">*</tspan><tspan x="350" dy="14">{</tspan><tspan x="350" dy="14">C</tspan><tspan x="350" dy="14">\</tspan><animateTransform attributeName="transform" type="translate" from="0,-238" to="0,430" dur="3.5s" begin="-1.2s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.54"><tspan x="375" dy="0" opacity=".9">A</tspan><tspan x="375" dy="14">{</tspan><tspan x="375" dy="14">F</tspan><tspan x="375" dy="14">[</tspan><tspan x="375" dy="14">/</tspan><tspan x="375" dy="14">!</tspan><tspan x="375" dy="14">@</tspan><tspan x="375" dy="14">F</tspan><tspan x="375" dy="14">\</tspan><tspan x="375" dy="14">{</tspan><tspan x="375" dy="14">^</tspan><tspan x="375" dy="14">@</tspan><animateTransform attributeName="transform" type="translate" from="0,-168" to="0,430" dur="5.6s" begin="0.6s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.37"><tspan x="395" dy="0" opacity=".9">$</tspan><tspan x="395" dy="14">0</tspan><tspan x="395" dy="14">/</tspan><tspan x="395" dy="14">\</tspan><tspan x="395" dy="14">^</tspan><tspan x="395" dy="14">A</tspan><tspan x="395" dy="14">C</tspan><tspan x="395" dy="14">B</tspan><tspan x="395" dy="14">*</tspan><tspan x="395" dy="14">/</tspan><tspan x="395" dy="14">#</tspan><tspan x="395" dy="14">E</tspan><tspan x="395" dy="14">A</tspan><tspan x="395" dy="14">|</tspan><tspan x="395" dy="14">!</tspan><tspan x="395" dy="14">1</tspan><tspan x="395" dy="14">\</tspan><animateTransform attributeName="transform" type="translate" from="0,-238" to="0,430" dur="5.0s" begin="-1.3s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.28"><tspan x="417" dy="0" opacity=".9">D</tspan><tspan x="417" dy="14">E</tspan><tspan x="417" dy="14">]</tspan><tspan x="417" dy="14">!</tspan><tspan x="417" dy="14">A</tspan><tspan x="417" dy="14">[</tspan><tspan x="417" dy="14">B</tspan><tspan x="417" dy="14">B</tspan><tspan x="417" dy="14">|</tspan><tspan x="417" dy="14">!</tspan><tspan x="417" dy="14">C</tspan><tspan x="417" dy="14">^</tspan><tspan x="417" dy="14">|</tspan><tspan x="417" dy="14">\</tspan><tspan x="417" dy="14">B</tspan><tspan x="417" dy="14">F</tspan><animateTransform attributeName="transform" type="translate" from="0,-224" to="0,430" dur="5.0s" begin="-4.0s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.26"><tspan x="442" dy="0" opacity=".9">^</tspan><tspan x="442" dy="14">B</tspan><tspan x="442" dy="14">C</tspan><tspan x="442" dy="14">#</tspan><tspan x="442" dy="14">*</tspan><tspan x="442" dy="14">#</tspan><tspan x="442" dy="14">\</tspan><tspan x="442" dy="14">#</tspan><tspan x="442" dy="14">}</tspan><tspan x="442" dy="14">F</tspan><tspan x="442" dy="14">0</tspan><tspan x="442" dy="14">/</tspan><animateTransform attributeName="transform" type="translate" from="0,-168" to="0,430" dur="3.3s" begin="-4.6s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.46"><tspan x="468" dy="0" opacity=".9">!</tspan><tspan x="468" dy="14">E</tspan><tspan x="468" dy="14">}</tspan><tspan x="468" dy="14">C</tspan><tspan x="468" dy="14">*</tspan><tspan x="468" dy="14">}</tspan><tspan x="468" dy="14">E</tspan><tspan x="468" dy="14">C</tspan><tspan x="468" dy="14">C</tspan><tspan x="468" dy="14">F</tspan><tspan x="468" dy="14">!</tspan><tspan x="468" dy="14">0</tspan><tspan x="468" dy="14">\</tspan><tspan x="468" dy="14">/</tspan><tspan x="468" dy="14">B</tspan><tspan x="468" dy="14">*</tspan><tspan x="468" dy="14">{</tspan><tspan x="468" dy="14">*</tspan><animateTransform attributeName="transform" type="translate" from="0,-252" to="0,430" dur="2.5s" begin="-4.5s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.37"><tspan x="495" dy="0" opacity=".9">$</tspan><tspan x="495" dy="14">@</tspan><tspan x="495" dy="14">]</tspan><tspan x="495" dy="14">|</tspan><tspan x="495" dy="14">[</tspan><tspan x="495" dy="14">}</tspan><tspan x="495" dy="14">\</tspan><tspan x="495" dy="14">1</tspan><tspan x="495" dy="14">@</tspan><tspan x="495" dy="14">D</tspan><tspan x="495" dy="14">^</tspan><tspan x="495" dy="14">\</tspan><tspan x="495" dy="14">]</tspan><tspan x="495" dy="14">\</tspan><tspan x="495" dy="14">$</tspan><tspan x="495" dy="14">{</tspan><tspan x="495" dy="14">]</tspan><animateTransform attributeName="transform" type="translate" from="0,-238" to="0,430" dur="3.6s" begin="-4.5s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.51"><tspan x="517" dy="0" opacity=".9">!</tspan><tspan x="517" dy="14">E</tspan><tspan x="517" dy="14">D</tspan><tspan x="517" dy="14">[</tspan><tspan x="517" dy="14">[</tspan><tspan x="517" dy="14">#</tspan><tspan x="517" dy="14">/</tspan><tspan x="517" dy="14">0</tspan><tspan x="517" dy="14">C</tspan><tspan x="517" dy="14">B</tspan><tspan x="517" dy="14">*</tspan><tspan x="517" dy="14">1</tspan><tspan x="517" dy="14">@</tspan><tspan x="517" dy="14">A</tspan><tspan x="517" dy="14">A</tspan><tspan x="517" dy="14">]</tspan><tspan x="517" dy="14">[</tspan><tspan x="517" dy="14">E</tspan><animateTransform attributeName="transform" type="translate" from="0,-252" to="0,430" dur="4.2s" begin="-1.2s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.38"><tspan x="535" dy="0" opacity=".9">\</tspan><tspan x="535" dy="14">#</tspan><tspan x="535" dy="14">\</tspan><tspan x="535" dy="14">{</tspan><tspan x="535" dy="14">\</tspan><tspan x="535" dy="14">@</tspan><tspan x="535" dy="14">]</tspan><tspan x="535" dy="14">@</tspan><tspan x="535" dy="14">|</tspan><tspan x="535" dy="14">1</tspan><tspan x="535" dy="14">E</tspan><tspan x="535" dy="14">}</tspan><tspan x="535" dy="14">]</tspan><tspan x="535" dy="14">F</tspan><tspan x="535" dy="14">@</tspan><tspan x="535" dy="14">\</tspan><tspan x="535" dy="14">#</tspan><tspan x="535" dy="14">!</tspan><tspan x="535" dy="14">#</tspan><tspan x="535" dy="14">1</tspan><animateTransform attributeName="transform" type="translate" from="0,-280" to="0,430" dur="2.9s" begin="-2.1s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.26"><tspan x="560" dy="0" opacity=".9">$</tspan><tspan x="560" dy="14">C</tspan><tspan x="560" dy="14">1</tspan><tspan x="560" dy="14">$</tspan><tspan x="560" dy="14">0</tspan><tspan x="560" dy="14">/</tspan><tspan x="560" dy="14">#</tspan><tspan x="560" dy="14">#</tspan><tspan x="560" dy="14">E</tspan><tspan x="560" dy="14">D</tspan><tspan x="560" dy="14">@</tspan><tspan x="560" dy="14">[</tspan><tspan x="560" dy="14">{</tspan><tspan x="560" dy="14">1</tspan><tspan x="560" dy="14">D</tspan><animateTransform attributeName="transform" type="translate" from="0,-210" to="0,430" dur="2.7s" begin="-2.5s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.34"><tspan x="588" dy="0" opacity=".9">*</tspan><tspan x="588" dy="14">E</tspan><tspan x="588" dy="14">C</tspan><tspan x="588" dy="14">C</tspan><tspan x="588" dy="14">$</tspan><tspan x="588" dy="14">0</tspan><tspan x="588" dy="14">[</tspan><tspan x="588" dy="14">$</tspan><tspan x="588" dy="14">*</tspan><tspan x="588" dy="14">F</tspan><animateTransform attributeName="transform" type="translate" from="0,-140" to="0,430" dur="2.8s" begin="-0.1s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.34"><tspan x="615" dy="0" opacity=".9">/</tspan><tspan x="615" dy="14">{</tspan><tspan x="615" dy="14">*</tspan><tspan x="615" dy="14">\</tspan><tspan x="615" dy="14">[</tspan><tspan x="615" dy="14">E</tspan><tspan x="615" dy="14">C</tspan><tspan x="615" dy="14">B</tspan><tspan x="615" dy="14">{</tspan><tspan x="615" dy="14">*</tspan><animateTransform attributeName="transform" type="translate" from="0,-140" to="0,430" dur="4.1s" begin="-3.0s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.4"><tspan x="633" dy="0" opacity=".9">1</tspan><tspan x="633" dy="14">[</tspan><tspan x="633" dy="14">\</tspan><tspan x="633" dy="14">{</tspan><tspan x="633" dy="14">A</tspan><tspan x="633" dy="14">!</tspan><tspan x="633" dy="14">B</tspan><tspan x="633" dy="14">$</tspan><tspan x="633" dy="14">\</tspan><tspan x="633" dy="14">}</tspan><tspan x="633" dy="14">$</tspan><tspan x="633" dy="14">A</tspan><tspan x="633" dy="14">#</tspan><animateTransform attributeName="transform" type="translate" from="0,-182" to="0,430" dur="5.4s" begin="-2.5s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.18"><tspan x="660" dy="0" opacity=".9">\</tspan><tspan x="660" dy="14">*</tspan><tspan x="660" dy="14">^</tspan><tspan x="660" dy="14">{</tspan><tspan x="660" dy="14">\</tspan><tspan x="660" dy="14">!</tspan><tspan x="660" dy="14">B</tspan><tspan x="660" dy="14">0</tspan><tspan x="660" dy="14">F</tspan><tspan x="660" dy="14">{</tspan><tspan x="660" dy="14">*</tspan><tspan x="660" dy="14">D</tspan><tspan x="660" dy="14">C</tspan><tspan x="660" dy="14">E</tspan><animateTransform attributeName="transform" type="translate" from="0,-196" to="0,430" dur="2.4s" begin="-5.4s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.16"><tspan x="677" dy="0" opacity=".9">D</tspan><tspan x="677" dy="14">F</tspan><tspan x="677" dy="14">F</tspan><tspan x="677" dy="14">{</tspan><tspan x="677" dy="14">!</tspan><tspan x="677" dy="14">A</tspan><tspan x="677" dy="14">C</tspan><tspan x="677" dy="14">1</tspan><tspan x="677" dy="14">!</tspan><tspan x="677" dy="14">$</tspan><tspan x="677" dy="14">A</tspan><tspan x="677" dy="14">{</tspan><tspan x="677" dy="14">$</tspan><tspan x="677" dy="14">}</tspan><tspan x="677" dy="14">D</tspan><animateTransform attributeName="transform" type="translate" from="0,-210" to="0,430" dur="2.8s" begin="-3.9s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.2"><tspan x="711" dy="0" opacity=".9">{</tspan><tspan x="711" dy="14">}</tspan><tspan x="711" dy="14">*</tspan><tspan x="711" dy="14">[</tspan><tspan x="711" dy="14">/</tspan><tspan x="711" dy="14">F</tspan><tspan x="711" dy="14">1</tspan><tspan x="711" dy="14">C</tspan><tspan x="711" dy="14">$</tspan><tspan x="711" dy="14">!</tspan><tspan x="711" dy="14">}</tspan><tspan x="711" dy="14">0</tspan><tspan x="711" dy="14">[</tspan><tspan x="711" dy="14">F</tspan><tspan x="711" dy="14">$</tspan><tspan x="711" dy="14">[</tspan><tspan x="711" dy="14">1</tspan><tspan x="711" dy="14">C</tspan><tspan x="711" dy="14">E</tspan><animateTransform attributeName="transform" type="translate" from="0,-266" to="0,430" dur="3.5s" begin="-1.8s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.4"><tspan x="736" dy="0" opacity=".9">A</tspan><tspan x="736" dy="14">F</tspan><tspan x="736" dy="14">0</tspan><tspan x="736" dy="14">A</tspan><tspan x="736" dy="14">D</tspan><tspan x="736" dy="14">\</tspan><tspan x="736" dy="14">[</tspan><tspan x="736" dy="14">E</tspan><tspan x="736" dy="14">E</tspan><tspan x="736" dy="14">F</tspan><tspan x="736" dy="14">]</tspan><animateTransform attributeName="transform" type="translate" from="0,-154" to="0,430" dur="5.2s" begin="0.5s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.4"><tspan x="751" dy="0" opacity=".9">*</tspan><tspan x="751" dy="14">{</tspan><tspan x="751" dy="14">^</tspan><tspan x="751" dy="14">{</tspan><tspan x="751" dy="14">!</tspan><tspan x="751" dy="14">\</tspan><tspan x="751" dy="14">C</tspan><tspan x="751" dy="14">F</tspan><tspan x="751" dy="14">$</tspan><tspan x="751" dy="14">E</tspan><tspan x="751" dy="14">C</tspan><tspan x="751" dy="14">]</tspan><tspan x="751" dy="14">0</tspan><tspan x="751" dy="14">C</tspan><tspan x="751" dy="14">!</tspan><tspan x="751" dy="14">*</tspan><tspan x="751" dy="14">F</tspan><tspan x="751" dy="14">*</tspan><tspan x="751" dy="14">^</tspan><tspan x="751" dy="14">D</tspan><animateTransform attributeName="transform" type="translate" from="0,-280" to="0,430" dur="3.7s" begin="-2.7s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.2"><tspan x="783" dy="0" opacity=".9">!</tspan><tspan x="783" dy="14">}</tspan><tspan x="783" dy="14">!</tspan><tspan x="783" dy="14">/</tspan><tspan x="783" dy="14">C</tspan><tspan x="783" dy="14">#</tspan><tspan x="783" dy="14">B</tspan><tspan x="783" dy="14">\</tspan><tspan x="783" dy="14">$</tspan><tspan x="783" dy="14">A</tspan><tspan x="783" dy="14">$</tspan><animateTransform attributeName="transform" type="translate" from="0,-154" to="0,430" dur="4.1s" begin="-1.8s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.41"><tspan x="808" dy="0" opacity=".9">[</tspan><tspan x="808" dy="14">B</tspan><tspan x="808" dy="14">/</tspan><tspan x="808" dy="14">/</tspan><tspan x="808" dy="14">^</tspan><tspan x="808" dy="14">[</tspan><tspan x="808" dy="14">|</tspan><tspan x="808" dy="14">|</tspan><tspan x="808" dy="14">*</tspan><tspan x="808" dy="14">[</tspan><tspan x="808" dy="14">]</tspan><tspan x="808" dy="14">#</tspan><animateTransform attributeName="transform" type="translate" from="0,-168" to="0,430" dur="5.6s" begin="-3.5s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.43"><tspan x="831" dy="0" opacity=".9">D</tspan><tspan x="831" dy="14">F</tspan><tspan x="831" dy="14">/</tspan><tspan x="831" dy="14">*</tspan><tspan x="831" dy="14">0</tspan><tspan x="831" dy="14">{</tspan><tspan x="831" dy="14">[</tspan><tspan x="831" dy="14">{</tspan><tspan x="831" dy="14">$</tspan><tspan x="831" dy="14">1</tspan><tspan x="831" dy="14">@</tspan><tspan x="831" dy="14">D</tspan><tspan x="831" dy="14">|</tspan><animateTransform attributeName="transform" type="translate" from="0,-182" to="0,430" dur="3.3s" begin="-4.1s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.36"><tspan x="851" dy="0" opacity=".9">*</tspan><tspan x="851" dy="14">\</tspan><tspan x="851" dy="14">[</tspan><tspan x="851" dy="14">$</tspan><tspan x="851" dy="14">{</tspan><tspan x="851" dy="14">A</tspan><tspan x="851" dy="14">[</tspan><tspan x="851" dy="14">{</tspan><tspan x="851" dy="14">@</tspan><tspan x="851" dy="14">#</tspan><tspan x="851" dy="14">0</tspan><tspan x="851" dy="14">/</tspan><tspan x="851" dy="14">E</tspan><tspan x="851" dy="14">]</tspan><tspan x="851" dy="14">E</tspan><tspan x="851" dy="14">\</tspan><tspan x="851" dy="14">@</tspan><tspan x="851" dy="14">[</tspan><tspan x="851" dy="14">*</tspan><animateTransform attributeName="transform" type="translate" from="0,-266" to="0,430" dur="4.1s" begin="-5.0s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.21"><tspan x="879" dy="0" opacity=".9">*</tspan><tspan x="879" dy="14">@</tspan><tspan x="879" dy="14">!</tspan><tspan x="879" dy="14">{</tspan><tspan x="879" dy="14">#</tspan><tspan x="879" dy="14">A</tspan><tspan x="879" dy="14">C</tspan><tspan x="879" dy="14">E</tspan><tspan x="879" dy="14">A</tspan><tspan x="879" dy="14">}</tspan><tspan x="879" dy="14">\</tspan><tspan x="879" dy="14">}</tspan><tspan x="879" dy="14">1</tspan><tspan x="879" dy="14">|</tspan><tspan x="879" dy="14">]</tspan><tspan x="879" dy="14">E</tspan><tspan x="879" dy="14">\</tspan><tspan x="879" dy="14">D</tspan><animateTransform attributeName="transform" type="translate" from="0,-252" to="0,430" dur="2.9s" begin="-3.9s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.2"><tspan x="902" dy="0" opacity=".9">#</tspan><tspan x="902" dy="14">@</tspan><tspan x="902" dy="14">#</tspan><tspan x="902" dy="14">#</tspan><tspan x="902" dy="14">]</tspan><tspan x="902" dy="14">D</tspan><tspan x="902" dy="14">[</tspan><tspan x="902" dy="14">F</tspan><tspan x="902" dy="14">^</tspan><tspan x="902" dy="14">[</tspan><tspan x="902" dy="14">A</tspan><tspan x="902" dy="14">{</tspan><tspan x="902" dy="14">1</tspan><tspan x="902" dy="14">1</tspan><tspan x="902" dy="14">*</tspan><tspan x="902" dy="14">@</tspan><tspan x="902" dy="14">D</tspan><tspan x="902" dy="14">E</tspan><animateTransform attributeName="transform" type="translate" from="0,-252" to="0,430" dur="5.3s" begin="-0.3s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.36"><tspan x="918" dy="0" opacity=".9">\</tspan><tspan x="918" dy="14">E</tspan><tspan x="918" dy="14">A</tspan><tspan x="918" dy="14">D</tspan><tspan x="918" dy="14">B</tspan><tspan x="918" dy="14">B</tspan><tspan x="918" dy="14">#</tspan><tspan x="918" dy="14">0</tspan><tspan x="918" dy="14">B</tspan><tspan x="918" dy="14">}</tspan><tspan x="918" dy="14">F</tspan><tspan x="918" dy="14">/</tspan><animateTransform attributeName="transform" type="translate" from="0,-168" to="0,430" dur="4.5s" begin="-2.6s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.58"><tspan x="948" dy="0" opacity=".9">@</tspan><tspan x="948" dy="14">$</tspan><tspan x="948" dy="14">^</tspan><tspan x="948" dy="14">!</tspan><tspan x="948" dy="14">0</tspan><tspan x="948" dy="14">A</tspan><tspan x="948" dy="14">{</tspan><tspan x="948" dy="14">[</tspan><tspan x="948" dy="14">$</tspan><tspan x="948" dy="14">#</tspan><animateTransform attributeName="transform" type="translate" from="0,-140" to="0,430" dur="3.8s" begin="-2.1s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.44"><tspan x="967" dy="0" opacity=".9">A</tspan><tspan x="967" dy="14">@</tspan><tspan x="967" dy="14">B</tspan><tspan x="967" dy="14">D</tspan><tspan x="967" dy="14">F</tspan><tspan x="967" dy="14">/</tspan><tspan x="967" dy="14">$</tspan><tspan x="967" dy="14">{</tspan><tspan x="967" dy="14">F</tspan><tspan x="967" dy="14">^</tspan><tspan x="967" dy="14">D</tspan><tspan x="967" dy="14">$</tspan><animateTransform attributeName="transform" type="translate" from="0,-168" to="0,430" dur="5.0s" begin="-4.7s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.43"><tspan x="994" dy="0" opacity=".9">D</tspan><tspan x="994" dy="14">F</tspan><tspan x="994" dy="14">0</tspan><tspan x="994" dy="14">@</tspan><tspan x="994" dy="14">B</tspan><tspan x="994" dy="14">|</tspan><tspan x="994" dy="14">/</tspan><tspan x="994" dy="14">F</tspan><tspan x="994" dy="14">]</tspan><tspan x="994" dy="14">#</tspan><tspan x="994" dy="14">*</tspan><animateTransform attributeName="transform" type="translate" from="0,-154" to="0,430" dur="5.5s" begin="-5.2s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.58"><tspan x="1012" dy="0" opacity=".9">E</tspan><tspan x="1012" dy="14">#</tspan><tspan x="1012" dy="14">[</tspan><tspan x="1012" dy="14">/</tspan><tspan x="1012" dy="14">E</tspan><tspan x="1012" dy="14">\</tspan><tspan x="1012" dy="14">0</tspan><tspan x="1012" dy="14">|</tspan><tspan x="1012" dy="14">F</tspan><tspan x="1012" dy="14">A</tspan><tspan x="1012" dy="14">}</tspan><tspan x="1012" dy="14">F</tspan><tspan x="1012" dy="14">]</tspan><tspan x="1012" dy="14">!</tspan><animateTransform attributeName="transform" type="translate" from="0,-196" to="0,430" dur="5.0s" begin="-2.2s" repeatCount="indefinite"/></text>
+<text y="0" font-family="'Courier New',monospace" font-size="12" fill="#00FF41" opacity="0.54"><tspan x="1048" dy="0" opacity=".9">{</tspan><tspan x="1048" dy="14">$</tspan><tspan x="1048" dy="14">1</tspan><tspan x="1048" dy="14">}</tspan><tspan x="1048" dy="14">1</tspan><tspan x="1048" dy="14">[</tspan><tspan x="1048" dy="14">\</tspan><tspan x="1048" dy="14">*</tspan><tspan x="1048" dy="14">#</tspan><tspan x="1048" dy="14">*</tspan><tspan x="1048" dy="14">^</tspan><tspan x="1048" dy="14">A</tspan><tspan x="1048" dy="14">A</tspan><tspan x="1048" dy="14">D</tspan><tspan x="1048" dy="14">#</tspan><tspan x="1048" dy="14">|</tspan><tspan x="1048" dy="14">!</tspan><tspan x="1048" dy="14">C</tspan><tspan x="1048" dy="14">/</tspan><tspan x="1048" dy="14">B</tspan><animateTransform attributeName="transform" type="translate" from="0,-280" to="0,430" dur="4.3s" begin="0.2s" repeatCount="indefinite"/></text>
+<rect width="1200" height="400" fill="#000" opacity=".46"/>
+
+<!-- Monitor ambient glow -->
+<rect width="1200" height="400" fill="url(#monGlow)"/>
+
+<!-- ── KALI DRAGON (left) ── -->
+<text x="28" y="56" font-family="'Courier New',monospace" font-size="11" fill="#662222" opacity="0" style="animation:fadeIn .2s 0.05s forwards;">      .--.</text>
+<text x="28" y="70" font-family="'Courier New',monospace" font-size="11" fill="#882222" opacity="0" style="animation:fadeIn .2s 0.12000000000000001s forwards;">     |o_o |</text>
+<text x="28" y="84" font-family="'Courier New',monospace" font-size="11" fill="#993333" opacity="0" style="animation:fadeIn .2s 0.19s forwards;">     |:_/ |</text>
+<text x="28" y="98" font-family="'Courier New',monospace" font-size="11" fill="#bb3333" opacity="0" style="animation:fadeIn .2s 0.26s forwards;">    //   \ \</text>
+<text x="28" y="112" font-family="'Courier New',monospace" font-size="11" fill="#cc3333" opacity="0" style="animation:fadeIn .2s 0.33s forwards;">   (|     | )</text>
+<text x="28" y="126" font-family="'Courier New',monospace" font-size="11" fill="#dd4444" opacity="0" style="animation:fadeIn .2s 0.4s forwards;">  /'\_   _/`\</text>
+<text x="28" y="140" font-family="'Courier New',monospace" font-size="11" fill="#ee4444" opacity="0" style="animation:fadeIn .2s 0.47000000000000003s forwards;">  \___)=(___/</text>
+<text x="28" y="154" font-family="'Courier New',monospace" font-size="11" fill="#888888" opacity="0" style="animation:fadeIn .2s 0.54s forwards;"></text>
+<text x="28" y="168" font-family="'Courier New',monospace" font-size="11" fill="#ff3333" opacity="0" style="animation:fadeIn .2s 0.6100000000000001s forwards;">   K A L I</text>
+<text x="28" y="182" font-family="'Courier New',monospace" font-size="11" fill="#cc2222" opacity="0" style="animation:fadeIn .2s 0.6800000000000002s forwards;">  L I N U X</text>
+
+<!-- ── DESK SURFACE ── -->
+<rect x="120" y="316" width="960" height="18" rx="2" fill="#0c180c"/>
+<rect x="120" y="334" width="960" height="7" fill="#08120a"/>
+<!-- Desk glow reflection -->
+<rect x="350" y="316" width="450" height="3" fill="#00FF41" opacity="0.06" rx="1"/>
+
+<!-- ── KEYBOARD ── -->
+<rect x="338" y="294" width="220" height="24" rx="4" fill="#0a1a0a" stroke="#002500" stroke-width="1"/>
+<rect x="342" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="360" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="378" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="396" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="414" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="432" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="450" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="468" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="486" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="504" y="298" width="14" height="7" rx="2" fill="#0d200d"/><rect x="522" y="298" width="14" height="7" rx="2" fill="#0d200d"/>
+<rect x="342" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="360" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="378" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="396" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="414" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="432" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="450" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="468" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="486" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="504" y="307" width="14" height="7" rx="2" fill="#0d200d"/><rect x="522" y="307" width="14" height="7" rx="2" fill="#0d200d"/>
+<!-- Typing fingers -->
+<rect x="380" y="296" width="9" height="12" rx="2.5" fill="#0b1a0b"><animate attributeName="y" values="296;292;296" dur="0.38s" begin="0s" repeatCount="indefinite"/></rect>
+<rect x="400" y="296" width="9" height="12" rx="2.5" fill="#0b1a0b"><animate attributeName="y" values="296;292;296" dur="0.42s" begin="0.12s" repeatCount="indefinite"/></rect>
+<rect x="420" y="296" width="9" height="12" rx="2.5" fill="#0b1a0b"><animate attributeName="y" values="296;292;296" dur="0.36s" begin="0.05s" repeatCount="indefinite"/></rect>
+<rect x="440" y="296" width="9" height="12" rx="2.5" fill="#0b1a0b"><animate attributeName="y" values="296;292;296" dur="0.44s" begin="0.19s" repeatCount="indefinite"/></rect>
+
+
+<!-- ── HACKER SILHOUETTE ── -->
+<!-- Body behind desk -->
+<path d="M207,318 Q252,308 297,318 L302,400 L202,400 Z" fill="#070e07"/>
+<!-- Shoulders -->
+<ellipse cx="252" cy="274" rx="52" ry="20" fill="#080f08"/>
+<!-- Right arm toward keyboard -->
+<path d="M290,280 Q332,302 372,306" stroke="#090e09" stroke-width="22" fill="none" stroke-linecap="round"/>
+<!-- Left arm toward keyboard -->
+<path d="M214,280 Q232,307 262,306" stroke="#090e09" stroke-width="22" fill="none" stroke-linecap="round"/>
+<!-- Hoodie/body -->
+<ellipse cx="252" cy="260" rx="46" ry="18" fill="#080f08"/>
+<!-- Hood -->
+<path d="M210,232 Q206,170 252,168 Q292,176 294,232 L286,262 Q252,258 218,262 Z" fill="#050b05"/>
+<!-- Head -->
+<circle cx="252" cy="222" r="32" fill="#070d07"/>
+<!-- Face profile (lit from right by monitors) -->
+<ellipse cx="262" cy="224" rx="22" ry="26" fill="#0b1a0b"/>
+<!-- Green face glow from monitor light -->
+<ellipse cx="270" cy="222" rx="16" ry="20" fill="url(#faceGlow)" style="animation:pulse 3s ease-in-out infinite;"/>
+<!-- Eye -->
+<ellipse cx="270" cy="217" rx="3.5" ry="2.5" fill="#00FF41" opacity="0.75" style="animation:pulse 2s ease-in-out infinite;"/>
+<!-- Nose hint -->
+<line x1="272" y1="228" x2="274" y2="232" stroke="#005500" stroke-width="1.5" opacity="0.5"/>
+
+<!-- ── MAIN MONITOR STAND ── -->
+<rect x="543" y="316" width="28" height="14" rx="2" fill="#111"/>
+<rect x="509" y="329" width="96" height="5" rx="2" fill="#0f1a0f"/>
+
+<!-- ── MAIN MONITOR FRAME ── -->
+<rect x="362" y="76" width="390" height="240" rx="8" fill="#060e06"
+      stroke="#00FF41" stroke-width="2" style="animation:borderGlow 2.5s ease-in-out infinite;"/>
+<!-- Titlebar -->
+<rect x="362" y="76" width="390" height="28" rx="8" fill="#0f1e0f"/>
+<rect x="362" y="90" width="390" height="14" fill="#0f1e0f"/>
+<circle cx="378" cy="90" r="5" fill="#ff5f57"/>
+<circle cx="394" cy="90" r="5" fill="#febc2e"/>
+<circle cx="410" cy="90" r="5" fill="#28c840"/>
+<text x="557" y="94" text-anchor="middle"
+      font-family="'Courier New',monospace" font-size="10" fill="#00FF41">root@kali:~/SHEILPIAN — vim system_builder.py</text>
+<text x="742" y="94" text-anchor="end"
+      font-family="'Courier New',monospace" font-size="9" fill="#cc0000"
+      style="animation:pulse 2.5s infinite;">[KALI]</text>
+
+<!-- ── CODE SCROLLING ON SCREEN ── -->
+<g clip-path="url(#sc)">
+  <g>
+    <text x="376" y="122" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444"> 1 </tspan><tspan fill="#557799"># system_builder.py — SHEILPIAN</tspan></text>
+    <text x="376" y="137" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444"> 2 </tspan><tspan fill="#cc99ff">import </tspan><tspan fill="#88ffaa">automation, monitoring</tspan></text>
+    <text x="376" y="152" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444"> 3 </tspan><tspan fill="#cc99ff">import </tspan><tspan fill="#88ffaa">reporting, alerting</tspan></text>
+    <text x="376" y="167" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444"> 4 </tspan><tspan fill="#888888"></tspan><tspan fill="#888888"></tspan></text>
+    <text x="376" y="182" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444"> 5 </tspan><tspan fill="#cc99ff">class </tspan><tspan fill="#ffdd88">AutomationBot:</tspan></text>
+    <text x="376" y="197" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444"> 6 </tspan><tspan fill="#cccccc">  def </tspan><tspan fill="#88ffdd">__init__(self):</tspan></text>
+    <text x="376" y="212" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444"> 7 </tspan><tspan fill="#cccccc">    self.target  </tspan><tspan fill="#88ffaa">= "PT_VUTEQ_SYSTEMS"</tspan></text>
+    <text x="376" y="227" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444"> 8 </tspan><tspan fill="#cccccc">    self.status  </tspan><tspan fill="#88ffaa">= "ACTIVE"</tspan></text>
+    <text x="376" y="242" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444"> 9 </tspan><tspan fill="#cccccc">    self.modules </tspan><tspan fill="#cccccc">= []</tspan></text>
+    <text x="376" y="257" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">10 </tspan><tspan fill="#888888"></tspan><tspan fill="#888888"></tspan></text>
+    <text x="376" y="272" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">11 </tspan><tspan fill="#cccccc">  def </tspan><tspan fill="#88ffdd">run(self):</tspan></text>
+    <text x="376" y="287" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">12 </tspan><tspan fill="#cc99ff">    while </tspan><tspan fill="#cccccc">True:</tspan></text>
+    <text x="376" y="302" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">13 </tspan><tspan fill="#cccccc">      data   = </tspan><tspan fill="#88ffaa">self.collect()</tspan></text>
+    <text x="376" y="317" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">14 </tspan><tspan fill="#cccccc">      result = </tspan><tspan fill="#88ffaa">self.analyze(data)</tspan></text>
+    <text x="376" y="332" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">15 </tspan><tspan fill="#cccccc">      </tspan><tspan fill="#88ffaa">self.report(result)</tspan></text>
+    <text x="376" y="347" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">16 </tspan><tspan fill="#888888"></tspan><tspan fill="#888888"></tspan></text>
+    <text x="376" y="362" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">17 </tspan><tspan fill="#cc99ff">def </tspan><tspan fill="#88ffdd">exploit_system(target):</tspan></text>
+    <text x="376" y="377" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">18 </tspan><tspan fill="#cccccc">  conn = </tspan><tspan fill="#88ffaa">connect(target, 4444)</tspan></text>
+    <text x="376" y="392" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">19 </tspan><tspan fill="#cc99ff">  if </tspan><tspan fill="#cccccc">conn.status == 'open':</tspan></text>
+    <text x="376" y="407" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">20 </tspan><tspan fill="#cccccc">    payload = </tspan><tspan fill="#88ffaa">gen_payload(</tspan></text>
+    <text x="376" y="422" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">21 </tspan><tspan fill="#cccccc">        arch</tspan><tspan fill="#ffdd88">="x86_64",</tspan></text>
+    <text x="376" y="437" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">22 </tspan><tspan fill="#cccccc">        type</tspan><tspan fill="#ffdd88">="reverse_shell"</tspan></text>
+    <text x="376" y="452" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">23 </tspan><tspan fill="#cccccc">    )</tspan><tspan fill="#888888"></tspan></text>
+    <text x="376" y="467" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">24 </tspan><tspan fill="#cccccc">    conn</tspan><tspan fill="#88ffaa">.send(payload)</tspan></text>
+    <text x="376" y="482" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">25 </tspan><tspan fill="#cccccc">    return </tspan><tspan fill="#88ffaa">conn.recv()</tspan></text>
+    <text x="376" y="497" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">26 </tspan><tspan fill="#888888"></tspan><tspan fill="#888888"></tspan></text>
+    <text x="376" y="512" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">27 </tspan><tspan fill="#888888"># instantiate</tspan><tspan fill="#888888"></tspan></text>
+    <text x="376" y="527" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">28 </tspan><tspan fill="#cccccc">bot = </tspan><tspan fill="#ffdd88">AutomationBot()</tspan></text>
+    <text x="376" y="542" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">29 </tspan><tspan fill="#cccccc">bot</tspan><tspan fill="#88ffaa">.run()  # [ACTIVE]</tspan></text>
+    <text x="376" y="557" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">30 </tspan><tspan fill="#888888"></tspan><tspan fill="#888888"></tspan></text>
+    <text x="376" y="572" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">31 </tspan><tspan fill="#557799"># --- output ---</tspan><tspan fill="#557799"></tspan></text>
+    <text x="376" y="587" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">32 </tspan><tspan fill="#00FF41">[OK] </tspan><tspan fill="#aaaaaa">Automation started</tspan></text>
+    <text x="376" y="602" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">33 </tspan><tspan fill="#00FF41">[OK] </tspan><tspan fill="#aaaaaa">Monitoring active</tspan></text>
+    <text x="376" y="617" font-family="'Courier New',monospace" font-size="11" filter="url(#screenFx)"><tspan fill="#444444">34 </tspan><tspan fill="#00FF41">[OK] </tspan><tspan fill="#aaaaaa">Reports queued: 14</tspan></text>
+    <animateTransform attributeName="transform" type="translate"
+      from="0,0" to="0,-530" dur="14s" repeatCount="indefinite"/>
+  </g>
+</g>
+<!-- Screen scanline -->
+<rect x="372" y="106" width="370" height="2" fill="#00FF41" opacity=".07"
+      style="animation:scanMove 3s linear infinite;"/>
+<!-- Screen edge glow -->
+<rect x="372" y="106" width="370" height="200" fill="none"
+      stroke="#00FF41" stroke-width="0.5" opacity="0.3"/>
+
+<!-- ── SIDE MONITOR (right) ── -->
+<rect x="885" y="270" width="24" height="12" rx="2" fill="#111"/>
+<rect x="857" y="281" width="80" height="4" rx="2" fill="#0f1a0f"/>
+<rect x="790" y="110" width="215" height="160" rx="6" fill="#060e06"
+      stroke="#00FF41" stroke-width="1.5" style="animation:borderGlow 3.5s ease-in-out infinite;"/>
+<rect x="790" y="110" width="215" height="25" rx="6" fill="#0f1e0f"/>
+<rect x="790" y="122" width="215" height="13" fill="#0f1e0f"/>
+<circle cx="803" cy="122" r="4.5" fill="#ff5f57"/>
+<circle cx="816" cy="122" r="4.5" fill="#febc2e"/>
+<circle cx="829" cy="122" r="4.5" fill="#28c840"/>
+<text x="897" y="126" text-anchor="middle"
+      font-family="'Courier New',monospace" font-size="9" fill="#00FF41">htop — System Monitor</text>
+<!-- htop content -->
+<g clip-path="url(#smc)">
+  <text x="798" y="150" font-family="'Courier New',monospace" font-size="10" fill="#666666" opacity="0" style="animation:fadeIn .3s 0.5s forwards;">  PID   CPU   MEM  COMMAND</text>
+  <text x="798" y="165" font-family="'Courier New',monospace" font-size="10" fill="#00FF41" opacity="0" style="animation:fadeIn .3s 0.65s forwards;">    1   0.0%  0.1% systemd</text>
+  <text x="798" y="180" font-family="'Courier New',monospace" font-size="10" fill="#00FF41" opacity="0" style="animation:fadeIn .3s 0.8s forwards;">  847  12.4%  2.3% python3</text>
+  <text x="798" y="195" font-family="'Courier New',monospace" font-size="10" fill="#00FF41" opacity="0" style="animation:fadeIn .3s 0.95s forwards;">  901   8.1%  1.8% node</text>
+  <text x="798" y="210" font-family="'Courier New',monospace" font-size="10" fill="#00FF41" opacity="0" style="animation:fadeIn .3s 1.1s forwards;">  934   3.2%  0.9% php-fpm</text>
+  <text x="798" y="225" font-family="'Courier New',monospace" font-size="10" fill="#888888" opacity="0" style="animation:fadeIn .3s 1.25s forwards;"></text>
+  <text x="798" y="240" font-family="'Courier New',monospace" font-size="10" fill="#aaaaaa" opacity="0" style="animation:fadeIn .3s 1.4s forwards;">CPU [▓▓▓▓▓▓▓▓░░░░] 68%</text>
+  <text x="798" y="255" font-family="'Courier New',monospace" font-size="10" fill="#aaaaaa" opacity="0" style="animation:fadeIn .3s 1.55s forwards;">MEM [▓▓▓▓▓▓░░░░░░] 52%</text>
+  <text x="798" y="270" font-family="'Courier New',monospace" font-size="10" fill="#39FF14" opacity="0" style="animation:fadeIn .3s 1.7s forwards;">NET [▓▓▓░░░░░░░░░] TX/RX</text>
+</g>
+<!-- Cursor on side monitor -->
+<text x="798" y="260" font-family="'Courier New',monospace" font-size="10" fill="#00FF41"
+      style="animation:blink 1.1s 1s infinite;">&#9646;</text>
+
+<!-- ── RIGHT PANEL: SHEILPIAN title + info ── -->
+<text x="937" y="88" text-anchor="middle" font-family="'Courier New',monospace"
+      font-size="38" font-weight="bold" fill="#00FF41" letter-spacing="5"
+      filter="url(#sglow)" style="animation:glitch 8s 1s infinite;">SH</text>
+<text x="937" y="88" text-anchor="middle" font-family="'Courier New',monospace"
+      font-size="38" font-weight="bold" fill="#00ffff" opacity="0" letter-spacing="5"
+      style="animation:glitch2 8s 1s infinite;">SH</text>
+<text x="937" y="108" text-anchor="middle" font-family="'Courier New',monospace"
+      font-size="9" fill="#39FF14" letter-spacing="4"
+      style="animation:textFlicker 7s 2s infinite;">EILPIAN . EXE</text>
+
+<!-- Divider line under SH text -->
+<line x1="850" y1="115" x2="1025" y2="115" stroke="#005500" stroke-width="1"
+      stroke-dasharray="5 3" opacity=".7"/>
+
+<!-- Info lines -->
+<text x="840" y="148" font-family="'Courier New',monospace" font-size="11" fill="#ff6b6b" opacity="0" style="animation:fadeIn .35s 0.4s forwards;">root@kali:~$ whoami</text>
+<text x="840" y="168" font-family="'Courier New',monospace" font-size="11" fill="#39FF14" opacity="0" style="animation:fadeIn .35s 0.65s forwards;">  SHEILPIAN</text>
+<text x="840" y="188" font-family="'Courier New',monospace" font-size="11" fill="#ff6b6b" opacity="0" style="animation:fadeIn .35s 0.9s forwards;">root@kali:~$ cat role.txt</text>
+<text x="840" y="208" font-family="'Courier New',monospace" font-size="11" fill="#00FF41" opacity="0" style="animation:fadeIn .35s 1.15s forwards;">  Software Engineer</text>
+<text x="840" y="228" font-family="'Courier New',monospace" font-size="11" fill="#00FF41" opacity="0" style="animation:fadeIn .35s 1.4s forwards;">  PT Vuteq Indonesia</text>
+<text x="840" y="248" font-family="'Courier New',monospace" font-size="11" fill="#ff6b6b" opacity="0" style="animation:fadeIn .35s 1.65s forwards;">root@kali:~$ uname -r</text>
+<text x="840" y="268" font-family="'Courier New',monospace" font-size="11" fill="#aaaaff" opacity="0" style="animation:fadeIn .35s 1.9s forwards;">  Kali Linux Rolling</text>
+<text x="840" y="288" font-family="'Courier New',monospace" font-size="11" fill="#ff6b6b" opacity="0" style="animation:fadeIn .35s 2.15s forwards;">root@kali:~$ uptime</text>
+<text x="840" y="308" font-family="'Courier New',monospace" font-size="11" fill="#00FF41" opacity="0" style="animation:fadeIn .35s 2.4s forwards;">  up 24/7, load: 0.42</text>
+<text x="840" y="328" font-family="'Courier New',monospace" font-size="11" fill="#39FF14" opacity="0" style="animation:fadeIn .35s 2.65s forwards;">root@kali:~$ █</text><animate attributeName="opacity" values="1;0;1" dur="1.1s" begin="2.9499999999999997s" repeatCount="indefinite"/>
+
+<!-- ── GLOBAL SCANLINE ── -->
+<rect x="0" y="0" width="1200" height="3" fill="#00FF41" opacity=".04"
+      style="animation:scanMove 4.5s linear infinite;"/>
+
+<!-- ── CORNER LABELS ── -->
+<text x="12" y="392" font-family="'Courier New',monospace" font-size="9"
+      fill="#005500" opacity=".65">[Kali Linux 2024.1 Rolling] [uid=0(root)] [tty1]</text>
+<text x="1188" y="392" text-anchor="end" font-family="'Courier New',monospace"
+      font-size="9" fill="#005500" opacity=".65">[ACCESS GRANTED] [SYSTEM: ONLINE] [UPTIME: 24/7]</text>
+</svg>
