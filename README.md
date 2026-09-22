@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <!-- ══════════════════════════════════════════════════════════════ -->
 <!--              💀 MATRIX HEADER - HACKER THEME 💀              -->
@@ -16,7 +16,7 @@
 <!--                  💻 MAIN HACKER BANNER 💻                    -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="./assets/hacker_banner.png" alt="SHEILPIAN - Hacker Banner" width="100%" style="border-radius: 10px;"/>
+  <img src="./assets/hacker_banner_animated.gif" alt="SHEILPIAN - Hacker Animated Banner" width="100%" style="border-radius: 10px;"/>
 </div>
 
 <br>
@@ -103,7 +103,7 @@ root@SHEILPIAN:~$ _
   <br>
     </td>
     <td width="42%" align="center" valign="middle">
-      <img src="./assets/hacker_side.png" width="100%" alt="Hacker Profile" style="border-radius: 10px;"/>
+      <img src="./assets/profile_hacker_animated.gif" width="100%" alt="Hacker Profile Animated" style="border-radius: 10px;"/>
     </td>
   </tr>
 </table>
@@ -217,7 +217,7 @@ root@SHEILPIAN:~$ _
 ## `> id --operator` &nbsp; — &nbsp; Operator Profile
 
 <div align="center">
-  <img src="./assets/profile_hacker.png" alt="SHEILPIAN Hacker Profile" width="360px" style="border-radius: 10px; border: 2px solid #00FF41;"/>
+  <img src="./assets/profile_hacker_animated.gif" alt="SHEILPIAN Hacker Profile Animated" width="360px" style="border-radius: 10px; border: 2px solid #00FF41;"/>
   <br><br>
 
 ```
