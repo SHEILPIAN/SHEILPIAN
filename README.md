@@ -1,57 +1,57 @@
-<div align="center">
+﻿<div align="center">
 
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                  ✨ WAVE HEADER ✨                           -->
-<!-- ════════════════════════════════════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=SHEILPIAN&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%7C%20System%20Developer%20%7C%20Automation%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--              💀 MATRIX HEADER - HACKER THEME 💀              -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003B00,100:00FF41&height=200&section=header&text=SHEILPIAN&fontSize=75&fontColor=00FF41&animation=fadeIn&fontAlignY=38&desc=%3E_%20Software%20Engineer%20%7C%20System%20Developer%20%7C%20Automation&descAlignY=62&descSize=17&descColor=39FF14" width="100%"/>
 
-<!-- Animated Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=700&size=26&duration=3500&pause=800&color=FF85C2&center=true&vCenter=true&multiline=false&width=750&lines=%F0%9F%8C%B8+Konnichiwa!+I'm+SHEILPIAN+%F0%9F%8C%B8;%F0%9F%92%BB+Passionate+Software+Engineer;%F0%9F%A4%96+Building+Automation+%26+Smart+Systems;%F0%9F%9A%80+Turning+Ideas+Into+Reality;%E2%9C%A8+Code+%7C+Create+%7C+Innovate" alt="Typing SVG" />
-
-</div>
-
-<br>
-
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                    🌸 MAIN BANNER 🌸                        -->
-<!-- ════════════════════════════════════════════════════════════ -->
-<div align="center">
-  <img src="./assets/banner_main.png" alt="SHEILPIAN - Kawaii Coder Banner" width="100%" style="border-radius: 20px;"/>
-</div>
-
-<br>
-
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                  📊 QUICK STATS BADGES 📊                   -->
-<!-- ════════════════════════════════════════════════════════════ -->
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=SHEILPIAN&style=for-the-badge&color=FF85C2&label=PROFILE+VIEWS)
-![GitHub Followers](https://img.shields.io/github/followers/SHEILPIAN?style=for-the-badge&color=C780FA&logo=github&logoColor=white&label=FOLLOWERS)
-![GitHub Stars](https://img.shields.io/github/stars/SHEILPIAN?style=for-the-badge&color=FFB3D9&logo=github&logoColor=white&label=TOTAL+STARS)
+<!-- Typing SVG - Hacker Style -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&duration=2500&pause=600&color=00FF41&center=true&vCenter=true&width=750&lines=%3E+Initializing+SHEILPIAN.exe...;%3E+Loading+modules...+%5BDONE%5D;%3E+Software+Engineer+%2F+System+Developer;%3E+Building+Automation+%26+Smart+Systems;%3E+Access+Granted.+Welcome+to+my+profile._%20" alt="Typing SVG" />
 
 </div>
 
 <br>
 
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                   🔗 SOCIAL LINKS 🔗                        -->
-<!-- ════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                  💻 MAIN HACKER BANNER 💻                    -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<div align="center">
+  <img src="./assets/hacker_banner.png" alt="SHEILPIAN - Hacker Banner" width="100%" style="border-radius: 10px;"/>
+</div>
+
+<br>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                  📊 SYSTEM STATUS BADGES 📊                  -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=SHEILPIAN&style=for-the-badge&color=00FF41&label=SYSTEM+ACCESS)
+![GitHub Followers](https://img.shields.io/github/followers/SHEILPIAN?style=for-the-badge&color=39FF14&logo=github&logoColor=black&label=FOLLOWERS)
+![GitHub Stars](https://img.shields.io/github/stars/SHEILPIAN?style=for-the-badge&color=00FF41&logo=github&logoColor=black&label=STARS)
+
+</div>
+
+<br>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                   🔗 NETWORK CONNECTIONS 🔗                  -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 <div align="center">
   <a href="https://github.com/SHEILPIAN">
-    <img src="https://img.shields.io/badge/GitHub-ff85c2?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/[GITHUB]-00FF41?style=for-the-badge&logo=github&logoColor=black" alt="GitHub"/>
   </a>
   &nbsp;
   <a href="mailto:selpian@vuteq.co.id">
-    <img src="https://img.shields.io/badge/Email-c780fa?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/[EMAIL]-39FF14?style=for-the-badge&logo=gmail&logoColor=black" alt="Email"/>
   </a>
   &nbsp;
   <a href="#">
-    <img src="https://img.shields.io/badge/LinkedIn-ffb3d9?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/[LINKEDIN]-00CC33?style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn"/>
   </a>
   &nbsp;
   <a href="https://github.com/SHEILPIAN?tab=repositories">
-    <img src="https://img.shields.io/badge/Portfolio-a78bfa?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/[PORTFOLIO]-009900?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
   </a>
 </div>
 
@@ -59,45 +59,51 @@
 
 ---
 
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                   🌸 ABOUT ME SECTION 🌸                    -->
-<!-- ════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                 🖥️ WHOAMI — SYSTEM PROFILE 🖥️                -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px" /> &nbsp; About Me &nbsp; 🌸
+## `> whoami` &nbsp; — &nbsp; System Profile
 
 <table align="center">
   <tr>
-    <td width="60%" valign="top">
+    <td width="58%" valign="top">
       <br>
 
-```yaml
-Name        : SHEILPIAN
-Location    : 🇮🇩 Indonesia
-Company     : PT Vuteq Indonesia
-Role        : Software Engineer / IT Developer
-Status      : 🟢 Open to Collaborate
+```bash
+root@SHEILPIAN:~$ cat profile.json
+{
+  "name"     : "SHEILPIAN",
+  "location" : "Indonesia [ID]",
+  "company"  : "PT Vuteq Indonesia",
+  "role"     : "Software Engineer / IT Developer",
+  "status"   : "[ONLINE] Open to Collaborate",
 
-Passions:
-  - 🤖 Industrial Automation Systems
-  - 🌐 Full Stack Web Development
-  - 📊 Data Visualization & Reporting
-  - ⚙️  Process Digitalization & Kaizen
-  - 🔧 IoT Integration & Smart Systems
+  "skills": [
+    "Industrial Automation Systems",
+    "Full Stack Web Development",
+    "Data Visualization & Reporting",
+    "Process Digitalization & Kaizen",
+    "IoT Integration & Smart Systems"
+  ],
 
-Currently Learning:
-  - Next.js & React Ecosystem
-  - Python for Automation & ML
-  - Cloud Infrastructure
-  - Embedded Systems / Raspberry Pi
+  "learning": [
+    "Next.js & React Ecosystem",
+    "Python for Automation & ML",
+    "Cloud Infrastructure",
+    "Embedded Systems / RPi"
+  ],
 
-Fun Fact : "I turn coffee ☕ and ideas 💡
-           into systems that actually work!"
+  "uptime"   : "24/7",
+  "kernel"   : "passion-driven-v4.1"
+}
+root@SHEILPIAN:~$ _
 ```
 
   <br>
     </td>
-    <td width="40%" align="center" valign="middle">
-      <img src="./assets/coding_side.png" width="100%" alt="Kawaii Anime Coder" style="border-radius: 15px; max-width: 300px;"/>
+    <td width="42%" align="center" valign="middle">
+      <img src="./assets/hacker_side.png" width="100%" alt="Hacker Profile" style="border-radius: 10px;"/>
     </td>
   </tr>
 </table>
@@ -106,42 +112,42 @@ Fun Fact : "I turn coffee ☕ and ideas 💡
 
 ---
 
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--               🛠️ SKILLS & TECHNOLOGIES 🛠️                   -->
-<!-- ════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--             ⚙️ TECH STACK — DEPLOYED MODULES ⚙️              -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
-## 🛠️ &nbsp; Languages & Technologies
+## `> ls ./tech-stack/` &nbsp; — &nbsp; Deployed Modules
 
 <div align="center">
-  <img src="./assets/skills_banner.png" alt="Skills Banner - Kawaii Tech" width="100%" style="border-radius: 15px;"/>
+  <img src="./assets/hacker_skills.png" alt="Tech Stack Terminal" width="100%" style="border-radius: 10px;"/>
 </div>
 
 <br>
 
-### 💻 Tech Stack
+### `> cat stack.conf`
 
 <div align="center">
 
-**⟨ Frontend ⟩**
+**[ FRONTEND_MODULES ]**
 
-![HTML5](https://img.shields.io/badge/HTML5-FF6B9D?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-C780FA?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-FFB3D9?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-A78BFA?style=for-the-badge&logo=react&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-FF85C2?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-00FF41?style=for-the-badge&logo=html5&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-39FF14?style=for-the-badge&logo=css3&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-00CC33?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-009900?style=for-the-badge&logo=react&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-007700?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-**⟨ Backend ⟩**
+**[ BACKEND_MODULES ]**
 
-![PHP](https://img.shields.io/badge/PHP-C780FA?style=for-the-badge&logo=php&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-A78BFA?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FFB3D9?style=for-the-badge&logo=python&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-00FF41?style=for-the-badge&logo=php&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-39FF14?style=for-the-badge&logo=node.js&logoColor=black)
+![Python](https://img.shields.io/badge/Python-00CC33?style=for-the-badge&logo=python&logoColor=black)
 
-**⟨ Database & Tools ⟩**
+**[ DATABASE_&_TOOLS ]**
 
-![MySQL](https://img.shields.io/badge/MySQL-FF85C2?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-C780FA?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-A78BFA?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-FFB3D9?style=for-the-badge&logo=github&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-009900?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-00FF41?style=for-the-badge&logo=git&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-39FF14?style=for-the-badge&logo=visual-studio-code&logoColor=black)
+![GitHub](https://img.shields.io/badge/GitHub-00CC33?style=for-the-badge&logo=github&logoColor=black)
 
 </div>
 
@@ -149,78 +155,81 @@ Fun Fact : "I turn coffee ☕ and ideas 💡
 
 ---
 
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--              📈 GITHUB STATS & ANALYTICS 📈                  -->
-<!-- ════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--            📊 SYSTEM ANALYTICS — GITHUB METRICS 📊           -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
-## 📈 &nbsp; GitHub Analytics
+## `> ./analytics.sh --github` &nbsp; — &nbsp; System Metrics
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SHEILPIAN&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=6" alt="GitHub Trophies" width="100%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=SHEILPIAN&theme=matrix&no-frame=true&no-bg=true&margin-w=10&column=6" alt="GitHub Trophies" width="100%"/>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SHEILPIAN&show_icons=true&theme=tokyonight&hide_border=true&title_color=FF85C2&icon_color=C780FA&text_color=a9a9b3&bg_color=0d1117&border_radius=15" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=SHEILPIAN&show_icons=true&theme=chartreuse-dark&hide_border=true&title_color=00FF41&icon_color=39FF14&text_color=00CC33&bg_color=0d1117&border_radius=8" alt="GitHub Stats" height="180"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SHEILPIAN&layout=compact&theme=tokyonight&hide_border=true&title_color=FF85C2&text_color=a9a9b3&bg_color=0d1117&border_radius=15&langs_count=8" alt="Top Languages" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SHEILPIAN&layout=compact&theme=chartreuse-dark&hide_border=true&title_color=00FF41&text_color=00CC33&bg_color=0d1117&border_radius=8&langs_count=8" alt="Top Languages" height="180"/>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SHEILPIAN&theme=tokyonight&hide_border=true&stroke=FF85C2&ring=C780FA&fire=FFB3D9&currStreakNum=FF85C2&sideNums=C780FA&currStreakLabel=A78BFA&sideLabels=a9a9b3&dates=a9a9b3&background=0d1117&border_radius=15" alt="GitHub Streak" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SHEILPIAN&theme=dark&hide_border=true&stroke=00FF41&ring=39FF14&fire=00FF41&currStreakNum=00FF41&sideNums=39FF14&currStreakLabel=00CC33&sideLabels=009900&dates=007700&background=0d1117&border_radius=8" alt="GitHub Streak" height="180"/>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SHEILPIAN&theme=tokyo-night&bg_color=0d1117&color=FF85C2&line=C780FA&point=FFB3D9&area=true&hide_border=true&border_radius=15" width="100%" alt="Activity Graph"/>
-</div>
-
-<br>
-
----
-
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--              🚀 FEATURED PROJECTS 🚀                         -->
-<!-- ════════════════════════════════════════════════════════════ -->
-
-## 🚀 &nbsp; Featured Projects
-
-<div align="center">
-
-| 🌸 Project | 📝 Description | 🛠️ Stack | 🔗 Link |
-|:---:|:---|:---:|:---:|
-| 🏭 **DKM Management** | Sistem manajemen terpadu masjid — keuangan, kegiatan & anggota | PHP, MySQL, JS | [Repo](https://github.com/SHEILPIAN) |
-| 📋 **Checksheet App** | Digital checksheet monitoring proses produksi harian | React, Node.js | [Repo](https://github.com/SHEILPIAN) |
-| 💰 **Finance Integration** | Sistem integrasi metode pembayaran keuangan internal | PHP, MySQL | [Repo](https://github.com/SHEILPIAN) |
-| ⚙️ **Inventory Sparepart** | Manajemen & tracking stok sparepart mesin produksi | PHP, MySQL, AJAX | [Repo](https://github.com/SHEILPIAN) |
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SHEILPIAN&theme=high-contrast&bg_color=0d1117&color=00FF41&line=39FF14&point=00FF41&area=true&hide_border=true&border_radius=8" width="100%" alt="Activity Graph"/>
 </div>
 
 <br>
 
 ---
 
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--                  🌸 DEVELOPER SPIRIT 🌸                     -->
-<!-- ════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--            🚀 ACTIVE PROCESSES — FEATURED PROJECTS 🚀        -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
-## 🌸 &nbsp; Developer Spirit
+## `> ps aux --projects` &nbsp; — &nbsp; Active Processes
 
 <div align="center">
-  <img src="./assets/chibi_avatar.png" alt="Chibi Dev Avatar" width="280px" style="border-radius: 20px;"/>
+
+| `PID` | `PROCESS_NAME` | `DESCRIPTION` | `STACK` | `STATUS` |
+|:---:|:---|:---|:---:|:---:|
+| 001 | **DKM_Management.exe** | Sistem manajemen terpadu masjid — keuangan, kegiatan & anggota | PHP, MySQL, JS | `[RUNNING]` |
+| 002 | **Checksheet_App.exe** | Digital checksheet monitoring proses produksi harian | React, Node.js | `[RUNNING]` |
+| 003 | **Finance_Integration.sh** | Sistem integrasi metode pembayaran keuangan internal | PHP, MySQL | `[RUNNING]` |
+| 004 | **Inventory_Sparepart.py** | Manajemen & tracking stok sparepart mesin produksi | PHP, MySQL, AJAX | `[RUNNING]` |
+
+</div>
+
+<br>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--               👤 OPERATOR PROFILE — HACKER CARD 👤           -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+## `> id --operator` &nbsp; — &nbsp; Operator Profile
+
+<div align="center">
+  <img src="./assets/profile_hacker.png" alt="SHEILPIAN Hacker Profile" width="360px" style="border-radius: 10px; border: 2px solid #00FF41;"/>
   <br><br>
 
-  > *"Every line of code is a step towards making the world work better — one commit at a time."* ✨
+```
+╔══════════════════════════════════════════════════════════╗
+║  > "The code doesn't lie. Debug it until it confesses."  ║
+║                                          — SHEILPIAN     ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-  <br>
-
-  ![Coding](https://img.shields.io/badge/🎵_Coding_Mode-LoFi_%26_Sakura_Vibes-FF85C2?style=flat-square)
-  ![Status](https://img.shields.io/badge/⚡_Status-Always_Building-C780FA?style=flat-square)
-  ![Coffee](https://img.shields.io/badge/☕_Fuel-Code_%2B_Coffee-FFB3D9?style=flat-square)
+  ![Mode](https://img.shields.io/badge/MODE-HACKER-00FF41?style=flat-square&logo=terminal&logoColor=black)
+  ![Status](https://img.shields.io/badge/STATUS-ALWAYS_ONLINE-39FF14?style=flat-square)
+  ![Uptime](https://img.shields.io/badge/UPTIME-24%2F7-00CC33?style=flat-square)
 
 </div>
 
@@ -228,29 +237,29 @@ Fun Fact : "I turn coffee ☕ and ideas 💡
 
 ---
 
-<!-- ════════════════════════════════════════════════════════════ -->
-<!--               🤝 CONNECT WITH ME 🤝                         -->
-<!-- ════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--            🔌 OPEN CONNECTIONS — CONTACT 🔌                  -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
-## 🤝 &nbsp; Let's Connect!
+## `> netstat --open-connections`
 
 <div align="center">
 
-  <p>Feel free to reach out for collaborations, projects, or just to say <b>Konnichiwa!</b> 🌸</p>
+  <p><code>> Accepting new connections. Send your request...</code></p>
 
   <a href="mailto:selpian@vuteq.co.id">
-    <img src="https://img.shields.io/badge/📧_Send_Email-FF85C2?style=for-the-badge&logoColor=white" alt="Email Me"/>
+    <img src="https://img.shields.io/badge/CONNECT_VIA_EMAIL-00FF41?style=for-the-badge&logo=gmail&logoColor=black" alt="Email Me"/>
   </a>
   &nbsp;
   <a href="https://github.com/SHEILPIAN">
-    <img src="https://img.shields.io/badge/🐱_Follow_on_GitHub-C780FA?style=for-the-badge&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/FOLLOW_ON_GITHUB-39FF14?style=for-the-badge&logo=github&logoColor=black" alt="GitHub"/>
   </a>
 
   <br><br>
 
-  <!-- Wave Footer -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&fontSize=30&fontColor=fff&animation=twinkling" width="100%"/>
+  <!-- Matrix Footer -->
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003B00,100:00FF41&height=130&section=footer&fontColor=00FF41&animation=fadeIn" width="100%"/>
 
 </div>
 
-<!-- Made with 💖 by SHEILPIAN -->
+<!-- root@SHEILPIAN:~$ shutdown -h now -->
