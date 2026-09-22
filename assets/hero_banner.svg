@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
 <defs>
   <style>
-  @keyframes glitch{0%,84%,100%{transform:none;opacity:1}85%{transform:translate(-4px,0) skewX(-4deg)}87%{transform:translate(4px,1px) skewX(3deg);opacity:.85}89%{transform:translate(-2px,0)}91%{transform:translate(2px,-1px)}93%{transform:none}}
-  @keyframes glitch2{0%,84%,100%{opacity:0}85%{opacity:.55;transform:translate(8px,0) skewX(-6deg)}87%{opacity:.3;transform:translate(-8px,2px)}89%,100%{opacity:0}}
+  @keyframes glitch{0%,100%{transform:none;opacity:1}}
+  @keyframes glitch2{0%,100%{opacity:0}}
   @keyframes pulse{0%,100%{opacity:1}}
   @keyframes blink{0%,100%{opacity:1}}
   @keyframes borderGlow{0%,100%{stroke-opacity:1;filter:drop-shadow(0 0 6px #00FF41)}}
